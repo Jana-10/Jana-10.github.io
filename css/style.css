@@ -1,0 +1,225 @@
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome div h1 {
+  font-size: 120px;
+  margin-bottom: auto;
+}
+
+.welcome div {
+  color: white;
+  padding-top: 20px;
+}
+
+.welcome h2 {
+  margin-left: 10px;
+  margin-top: auto;
+  color: transparent;
+  font-size: 220%;
+  animation-name: fadein;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+.welcome div p {
+  font-size: 180%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+@keyframes fadein {
+  from {
+    color: transparent;
+  }
+  to {
+    color: white;
+  }
+}
+
+.content {
+  margin-top: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.container div {
+  /* background-color: aliceblue; */
+  border-radius: 5px;
+  margin-right: 5px;
+  padding: 10px;
+  max-width: 500px;
+  color: aliceblue;
+}
+
+#about {
+  margin-right: 6%;
+}
+
+#pfp-div {
+  border-radius: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ico {
+  border-radius: 100%;
+  margin-top: 10px;
+}
+
+.contact-cell {
+  border: 1px solid rgb(107, 212, 216);
+  text-align: center;
+  animation: bordergradiant 15s ease infinite;
+  padding: 3px;
+}
+
+@keyframes bordergradiant {
+  0% {
+		border-color: rgb(107, 212, 216);
+	}
+	50% {
+		border-color: rgb(216, 107, 201);
+	}
+	100% {
+		border-color: rgb(107, 212, 216);
+	}
+} 
+
+#gallery {
+  max-width: 75%;
+  cursor: pointer;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+}
+
+.carousel div {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel p {
+  margin: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  color: aliceblue;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid silver;
+  text-align: center;
+  padding: 7px 15px 7px 15px;
+  width: 150px;
+}
+
+@keyframes bordergradiant {
+  0% {
+    border-color: rgb(107, 212, 216);
+  }
+  50% {
+    border-color: hotpink;
+  }
+  100% {
+    border-color: rgb(107, 212, 216);
+  }
+}
+
+.review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.review div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reviewer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:300px;
+}
+
+#add-btn {
+  border-radius: 5%;
+  border: 2px solid rgb(107, 212, 216);
+  animation: bordergradiant 15s ease infinite;
+  background-color: transparent;
+  color: white;
+  width: 150px;
+  padding: 7px 15px 7px 15px;
+  margin: 7px;
+  cursor: pointer;
+}
+
+
+
+input {
+  border: 2px solid rgb(107, 212, 216);
+  animation: bordergradiant 15s ease infinite;
+  padding: 7px 15px 7px 15px;
+  background-color: transparent;
+  color:white;
+  width:150px;
+  margin: 3px;
+}
+
+select {
+  border: 2px solid rgb(107, 212, 216);
+  animation: bordergradiant 15s ease infinite;
+  padding: 7px 15px 7px 15px;
+  background-color: transparent;
+  color:white;
+  width:150px;
+  margin: 3px;
+}
+
+option {
+  background-color: transparent;
+  color: black;
+}
+
+label {
+  padding :7px;
+  width: 100px;
+}
